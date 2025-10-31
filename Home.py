@@ -1,4 +1,4 @@
-"""
+""
 AI Contract Clause Builder - Assignment 2
 
 import streamlit as st
@@ -8,8 +8,6 @@ from datetime import datetime
 from docx import Document
 from openai import OpenAI
 import traceback
-
-
 # ============================================================================
 # 
 # ============================================================================
