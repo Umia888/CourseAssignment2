@@ -103,6 +103,7 @@ def call_openai_chat(messages, api_key, model="gpt-4o-mini", temperature=0.2, ma
         client = OpenAI(
             api_key=api_key,
             base_url="https://api.openai.com/v1"
+        )
         resp = client.chat.completions.create(
             model=model,
             messages=messages,
