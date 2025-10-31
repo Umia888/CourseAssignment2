@@ -51,11 +51,6 @@ England and Wales
 **Uploaded Document:**  
 [`liquidated_damages_reference.txt`](./liquidated_damages_reference.txt)
 
-**Reference Highlights:**  
-- Damages must be a **genuine pre-estimate of loss**  
-- Cannot be **punitive**  
-- Must include **clear triggers, methodology, and maximum caps**:contentReference[oaicite:0]{index=0}
-
 **Drafting Style:**  
 Legal Formal
 
