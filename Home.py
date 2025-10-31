@@ -9,22 +9,6 @@ Key Features:
 5. Professional Word document export
 6. Full English interface
 
-Technical Requirements:
-- Python 3.8+
-- Streamlit >= 1.28.0
-- OpenAI API >= 1.0.0
-- python-docx >= 0.8.11
-
-Deployment:
-- Streamlit Cloud compatible
-- See requirements.txt for dependencies
-- Configure OpenAI API key via environment variable or sidebar input
-
-Version: 2.0 (Final)
-Last Updated: 2025-10-24
-Original Base: oldapp.py (2025-10-20)
-"""
-
 import streamlit as st
 import os
 from io import BytesIO
