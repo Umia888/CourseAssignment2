@@ -1,14 +1,6 @@
 """
 AI Contract Clause Builder - Assignment 2
 
-Key Features:
-1. Multi-step AI analysis (7 core steps)
-2. Document upload and RAG retrieval
-3. Automated review and refinement (configurable iterations)
-4. Quality assessment (100-point scale, 10 dimensions)
-5. Professional Word document export
-6. Full English interface
-
 import streamlit as st
 import os
 from io import BytesIO
