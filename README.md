@@ -58,6 +58,11 @@ England and Wales
 **Uploaded Document:**  
 [`liquidated_damages_reference.txt`](./liquidated_damages_reference.txt)
 
+**Reference Highlights:**  
+- Damages must be a **genuine pre-estimate of loss**  
+- Cannot be **punitive**  
+- Must include **clear triggers, methodology, and maximum caps**:contentReference[oaicite:0]{index=0}
+
 **Drafting Style:**  
 Legal Formal
 
@@ -80,6 +85,11 @@ Singapore
 **Uploaded Documents:**  
 - [`confidentiality_guide.txt`](./confidentiality_guide.txt)  
 - [`singapore_law_notes.txt`](./singapore_law_notes.txt)
+
+**Reference Highlights:**  
+- Confidential information includes **business, technical, and financial data**:contentReference[oaicite:1]{index=1}  
+- Singapore law requires **clear definition, reasonable scope, and duration**:contentReference[oaicite:2]{index=2}  
+- Courts grant **injunctions for threatened disclosure or ongoing breaches**:contentReference[oaicite:3]{index=3}
 
 **Drafting Style:**  
 Balanced (Legal but Readable)

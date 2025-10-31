@@ -95,7 +95,7 @@ def call_openai_chat(messages, api_key, model="gpt-4o-mini", temperature=0.2, ma
         
         # 
         if "AuthenticationError" in error_type:
-            st.error(" **APINone**\n\n OpenAI API ")
+            st.error("**API Authentication Failed**\n\nPlease check your OpenAI API key.")
         elif "RateLimitError" in error_type:
             st.error(" **API**\n\n\n- \n- API\n- ")
         elif "timeout" in str(e).lower():
