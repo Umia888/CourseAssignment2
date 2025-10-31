@@ -1,0 +1,62 @@
+CONFIDENTIALITY CLAUSE DRAFTING GUIDE
+
+I. DEFINITION OF CONFIDENTIAL INFORMATION
+
+Confidential Information typically includes:
+
+1. Business Information
+   - Business plans and strategies
+   - Customer and supplier lists
+   - Pricing and financial data
+   - Marketing plans and analysis
+
+2. Technical Information
+   - Technical specifications and designs
+   - Source code and algorithms
+   - Product specifications
+   - Research and development data
+
+3. Financial Information
+   - Financial statements
+   - Investment plans
+   - Budgets and forecasts
+
+II. OBLIGATIONS
+
+The Receiving Party must:
+1. Not disclose to third parties
+2. Use only for authorized purposes
+3. Implement reasonable security measures
+4. Require employees to sign NDAs
+5. Notify discloser of any breaches
+
+III. STANDARD EXCEPTIONS
+
+Information is not confidential if:
+1. Publicly available at time of disclosure
+2. Becomes public through no fault of recipient
+3. Lawfully obtained from third party
+4. Independently developed
+5. Required by law to be disclosed (with prior notice)
+
+IV. DURATION
+
+Common confidentiality periods:
+- General business information: 2-3 years
+- Trade secrets: 5-10 years or indefinite
+- Technical information: 3-5 years
+
+V. REMEDIES
+
+Breach may result in:
+1. Monetary damages
+2. Injunctive relief
+3. Return of materials
+4. Indemnification
+
+VI. SAMPLE CLAUSE
+
+"The Receiving Party agrees to hold in confidence and not disclose
+to any third party any Confidential Information disclosed by the
+Disclosing Party. This obligation shall survive termination of this
+Agreement and continue for a period of [X] years thereafter."

@@ -1,0 +1,37 @@
+LIQUIDATED DAMAGES LEGAL REFERENCE
+
+1. LEGAL BASIS
+Liquidated damages are pre-determined compensation amounts specified in contracts for breach. 
+They must represent a genuine pre-estimate of loss and not constitute a penalty.
+
+2. KEY PRINCIPLES
+- Must be proportionate to anticipated harm
+- Cannot be punitive in nature
+- Should be stated clearly and unambiguously
+- Courts may reduce if deemed excessive
+
+3. CALCULATION METHODS
+Common approaches include:
+a) Fixed amount per breach
+b) Daily rate until remedy
+c) Percentage of contract value
+d) Graduated scale based on delay period
+
+4. ENFORCEABILITY FACTORS
+Courts consider:
+- Commercial justification
+- Reasonableness of amount
+- Relationship to actual losses
+- Good faith negotiations
+
+5. SAMPLE CLAUSE
+"In the event of Contractor's failure to complete the Works by the Completion Date,
+Contractor shall pay to Employer liquidated damages at the rate of [£X] per day
+of delay, up to a maximum of [Y%] of the Contract Price."
+
+6. BEST PRACTICES
+- Clearly state triggering events
+- Specify calculation methodology
+- Include maximum caps
+- Distinguish from penalties
+- Address mitigation duties

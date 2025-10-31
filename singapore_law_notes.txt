@@ -1,0 +1,45 @@
+SINGAPORE LAW - CONFIDENTIALITY OBLIGATIONS
+
+1. LEGAL FRAMEWORK
+Singapore law recognizes confidentiality obligations through:
+- Contract law
+- Equity (breach of confidence)
+- Common law principles
+
+2. ENFORCEABILITY REQUIREMENTS
+For enforceability, clauses must:
+- Clearly define confidential information
+- Specify reasonable duration
+- Not be contrary to public policy
+- Be reasonable in scope
+
+3. INJUNCTIVE RELIEF
+Singapore Courts readily grant injunctions for:
+- Threatened disclosure
+- Ongoing breaches
+- Irreparable harm situations
+
+Requirements:
+- Existence of confidential relationship
+- Unauthorized use or disclosure
+- Detriment to confiding party
+
+4. REMEDIES AVAILABLE
+- Injunction (interim and permanent)
+- Damages or account of profits
+- Return/destruction of materials
+- Anton Piller orders (search and seizure)
+
+5. NOTABLE CASES
+Courts have enforced confidentiality for:
+- Customer databases
+- Technical know-how
+- Business strategies
+- Financial information
+
+6. POST-EMPLOYMENT RESTRICTIONS
+Confidentiality duties continue after employment ends.
+Courts balance:
+- Legitimate business interests
+- Employee's right to work
+- Reasonableness of restrictions
