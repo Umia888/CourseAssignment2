@@ -38,13 +38,6 @@ _None_
 **Drafting Style:**  
 Balanced (Legal but Readable)
 
-**Expected Results:**
-- Defines indirect/consequential damages  
-- Includes 20% liability cap  
-- Lists excluded liabilities  
-- States calculation basis  
-- Approx. 7 AI processing calls  
-
 ---
 
 ### **Test Case 2: Liquidated Damages (With Documents)**
@@ -66,12 +59,6 @@ England and Wales
 **Drafting Style:**  
 Legal Formal
 
-**Expected Results:**  
-- Uses formal UK legal style  
-- References uploaded document principles  
-- Contains daily rate formula and annual cap  
-- ~9 AI processing calls  
-
 ---
 
 ### **Test Case 3: Confidentiality Obligations (Complex Test)**
@@ -86,19 +73,8 @@ Singapore
 - [`confidentiality_guide.txt`](./confidentiality_guide.txt)  
 - [`singapore_law_notes.txt`](./singapore_law_notes.txt)
 
-**Reference Highlights:**  
-- Confidential information includes **business, technical, and financial data**:contentReference[oaicite:1]{index=1}  
-- Singapore law requires **clear definition, reasonable scope, and duration**:contentReference[oaicite:2]{index=2}  
-- Courts grant **injunctions for threatened disclosure or ongoing breaches**:contentReference[oaicite:3]{index=3}
-
 **Drafting Style:**  
 Balanced (Legal but Readable)
-
-**Expected Results:**  
-- 3-year confidentiality period post-termination  
-- Standard exceptions list  
-- Explicit injunctive relief clause  
-- ~10 AI processing calls  
 
 ---
 
@@ -116,9 +92,3 @@ Singapore
 
 **Drafting Style:**  
 Legal Formal
-
-**Expected Results:**  
-- Integrates confidentiality definitions and breach consequences  
-- Includes enforceability criteria (genuine pre-estimate of loss)  
-- Adds injunctive relief alongside liquidated damages cap  
-- ~11 AI processing calls  
