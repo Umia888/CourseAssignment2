@@ -1,0 +1,5 @@
+streamlit
+pyarrow
+openai
+python-dotenv
+python-docx
