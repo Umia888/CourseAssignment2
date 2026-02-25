@@ -3,7 +3,7 @@
 
 A Streamlit application that **automatically drafts, reviews, and refines legal contract clauses** based on user-defined objectives, jurisdiction, and uploaded legal references.
 
-👉 **Live Demo:** [Streamlit Cloud App](https://laws90286-id1737854-assignment2-82h3tviqeftuepzqbpa5ru.streamlit.app/)
+👉 **Live Demo:** [Streamlit Cloud App]((https://miaproject2.streamlit.app/))
 
 ---
 
