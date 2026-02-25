@@ -1,0 +1,7 @@
+{
+  "name": "course-assignment2-1",
+  "private": true,
+  "scripts": {
+    "start": "streamlit run Home.py"
+  }
+}

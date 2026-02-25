@@ -4,13 +4,21 @@ AI Contract Clause Builder - Assignment 2
 
 import streamlit as st
 import os
+from pathlib import Path
 from io import BytesIO
 from datetime import datetime
 from docx import Document
 from openai import OpenAI
 import traceback
+from dotenv import load_dotenv
+
+# Load backend .env (API Key + Backend Password); override=True so file wins over system env
+_backend_env = Path(__file__).resolve().parent / "backend" / ".env"
+if _backend_env.exists():
+    load_dotenv(_backend_env, override=True)
+
 # ============================================================================
-# 
+#
 # ============================================================================
 
 def get_api_key_from_sidebar():
@@ -18,13 +26,19 @@ def get_api_key_from_sidebar():
     Get API key from sidebar
     
     Features:
-    1. Priority: environment variable (for production)
-    2. Fallback: user input (for local testing)
+    1. If user passed backend password: use OPENAI_API_KEY from backend .env
+    2. Else: environment variable (for production)
+    3. Fallback: user input (for local testing)
     
     Returns:
         str: OpenAI API key, None if not provided
     """
     st.sidebar.header("API Configuration")
+    
+    # Backend password unlocked: use server API key from backend/.env
+    if st.session_state.get("backend_verified") and os.getenv("OPENAI_API_KEY"):
+        st.sidebar.success("Using server API key (unlocked with backend password)")
+        return os.getenv("OPENAI_API_KEY")
     
     # Priority: environment variable (for deployment)
     env_key = os.getenv("OPENAI_API_KEY")
@@ -417,6 +431,23 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded"
 )
+
+# ---------------------------------------------------------------------------
+# Backend password gate: if BACKEND_PASSWORD is set, user must enter it to use the app (no need for own API key)
+# ---------------------------------------------------------------------------
+# Strip whitespace/newlines from env so .env formatting doesn't break comparison
+_backend_password = (os.getenv("BACKEND_PASSWORD") or "").strip()
+if _backend_password and not st.session_state.get("backend_verified"):
+    st.title("AI Contract Clause Builder")
+    st.markdown("Enter the backend password to use this app (no API key required).")
+    _pwd = st.text_input("Backend Password", type="password", key="backend_pwd_input")
+    if st.button("Unlock", type="primary", key="backend_unlock_btn"):
+        if (_pwd or "").strip() == _backend_password:
+            st.session_state.backend_verified = True
+            st.rerun()
+        else:
+            st.error("Incorrect password. Please try again.")
+    st.stop()
 
 # Title and description
 st.title("AI Contract Clause Builder")
